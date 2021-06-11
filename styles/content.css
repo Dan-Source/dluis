@@ -1,0 +1,24 @@
+
+/* Style the content */
+.content {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+/* Text */
+
+
+h2 {
+    margin-bottom: 5px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #5a6b5b;
+}
+
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+        margin-bottom: 10px;
+
+}
+

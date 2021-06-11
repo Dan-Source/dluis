@@ -1,0 +1,14 @@
+/* Este estio é aplicado a todos os elmentos filhos de body, 
+e o !important garante que estes estilos sejam aplicados de qualquer forma */
+
+body * {
+	color:                    hsla(210, 100%, 100%, 0.88) !important;
+	background:               hsla(210, 100%,  50%, 0.33) !important;
+	outline:    0.25rem solid hsla(210, 100%, 100%, 0.50) !important;
+}
+
+.debug-center{
+    display:			flex;
+    justify-content: 	center;
+    align-items: 		center;
+}
