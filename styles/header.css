@@ -4,4 +4,7 @@
   padding: 30px;
   text-align: center;
   font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

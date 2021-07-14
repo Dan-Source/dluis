@@ -7,7 +7,7 @@ nav ul {
 }
 
 nav li {
-  float: left;
+  float: right;
 }
 
 nav li a {
@@ -18,6 +18,22 @@ nav li a {
   text-decoration: none;
 }
 
-nav li a:hover {
+
+nav li a:hover:not(.active){
   background-color: #111;
+}
+
+.active {
+  background-color:  #5a6b5b;
+}
+
+#logo{
+  float: left;
+}
+
+#logo-icon{
+  padding: 0;
+  margin: 0;
+  height: 16px;
+  width: 50px;
 }

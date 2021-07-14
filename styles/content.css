@@ -2,23 +2,53 @@
 /* Style the content */
 .content {
   background-color: rgb(255, 255, 255);
-  padding: 10px;
+  padding: auto;
+  margin: auto;
 }
 /* Text */
 
-
 h2 {
-    margin-bottom: 5px;
-    text-align: left;
-    text-transform: uppercase;
-    color: #5a6b5b;
+  margin-bottom: 5px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #5a6b5b;
 }
 
 
 p {
-    text-indent: 50px;
-    text-align: justify;
-        margin-bottom: 10px;
+  text-indent: 50px;
+  text-align: justify;
+  margin-bottom: 10px;
 
 }
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 35px;
+}
+
+.column.side{
+  float: left;
+  width: 25%;
+  height: 500px;
+  margin-right: 10px;
+  background-color: #5a6b5b;
+}
+
+.column.text{
+  float: right;
+  width: 60%;
+  text-align: left;
+  padding: 5%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 

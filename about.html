@@ -10,13 +10,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/-debug.css">
-    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/content.css">
     <link rel="stylesheet" href="styles/card.css">
     <link rel="stylesheet" href="styles/img.css">
     <link rel="stylesheet" href="styles/topnav.css">
-    <link rel="stylesheet" href="styles/style.css">
 
     <style>
 
@@ -25,12 +23,16 @@
 
 <body>
     <!-- Barra de Naveção -->
-    <nav>
-        <ul>
-            <li><a class="active" href="/index.html"><i class="fa fa-fw fa-home"></i> HOME</a></li>
-            <li><a href="/about.html">About</a></li>
-        </ul>
-    </nav>
+    <header>
+        <nav>
+            <ul>
+                <li id='logo'> <a href="/index.html"> <img id='logo-icon' src="img/file-code-solid.svg" alt="Logo Icon"></i> </a></li>
+                <li class="active"><a href="/about.html">About</a></li>
+                <li><a href="/skill_galery.html">Skills</a></li>
+                <li><a href="/index.html">Hey, who am I?</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="content">
         <div class="card">
             <figure class="size-4">
@@ -40,8 +42,12 @@
             <p class="title">
                 Web developer | ADS |
             </p>
-            <a href="https://www.linkedin.com/in/daniel-luis-273945192/" target="_blank"><i
-                    class="fa fa-linkedin"></i></a>
+            <button>
+                <a href="https://www.linkedin.com/in/daniel-luis-273945192/" target="_blank">
+                    Linkedin <img id='linkedin-icon' src="img/linkedin-brands.svg" alt="Linkedin Icon">
+                </a>
+            </button>
+            
         </div>
     </div>
     <div class="footer">
